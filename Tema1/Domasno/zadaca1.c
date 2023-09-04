@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 // Задача1
 // Внеси преку тастатура два цели броеви a и b. Отпечати ги броевите на
@@ -7,15 +6,15 @@
 
 int main()
 {
-    int number1,number2,result;
+
+    int number1, number2;
 
     scanf("%d", &number1);
     scanf("%d", &number2);
 
-    result = number1-number2;
+    int result = number1 - number2;
 
-    printf("The numbers are %d and %d\n",number1,number2);
-    printf("The result is: %d", result);
+    printf("The numbers are %d and %d. The result is %d", number1, number2, result);
 
     return 0;
 }
