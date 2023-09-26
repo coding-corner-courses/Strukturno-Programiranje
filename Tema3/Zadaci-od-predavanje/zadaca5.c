@@ -9,7 +9,7 @@ int main()
 
     scanf("%c", &character);
 
-    if((int)character >= 65 && (int) character <= 90){
+    if((int)character >= 65 && (int)character <= 90){
         printf("The character is upper letter");
     }
 }
