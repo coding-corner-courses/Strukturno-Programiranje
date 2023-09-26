@@ -13,7 +13,7 @@ int main()
     {
         printf("The number is divisible with three");
     }
-    else if(number % 5 ==0)
+    else if(number % 5 == 0)
     {
         printf("The number is divisible with five");
     }
@@ -21,7 +21,7 @@ int main()
     {
         printf("The number is divisible with seven");
     }
-    else if(number % 11 ==0)
+    else if(number % 11 == 0)
     {
         printf("The number is divisble with eleven");
     }
