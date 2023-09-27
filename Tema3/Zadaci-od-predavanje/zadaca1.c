@@ -18,5 +18,7 @@ int main()
     }
 
     printf("IsEven: %d", isEven);
+
+    return 0;
 }
 
