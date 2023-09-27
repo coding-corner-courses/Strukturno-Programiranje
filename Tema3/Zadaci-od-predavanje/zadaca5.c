@@ -12,4 +12,6 @@ int main()
     if((int)character >= 65 && (int)character <= 90){
         printf("The character is upper letter");
     }
+
+    return 0;
 }
