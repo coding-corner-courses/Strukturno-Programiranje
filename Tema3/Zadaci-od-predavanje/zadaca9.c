@@ -14,19 +14,22 @@ int main()
 
     double result;
 
-    switch(arithmeticOperator){
-        case '+':
-            result=number1+number2;
-            break;
-        case '-':
-            result=number1-number2;
-            break;
-        case '*':
-            result=number1*number2;
-            break;
-        case '/':
-            result=(double)number1/number2;
-            break;
+    switch(arithmeticOperator)
+    {
+    case '+':
+        result=number1+number2;
+        break;
+    case '-':
+        result=number1-number2;
+        break;
+    case '*':
+        result=number1*number2;
+        break;
+    case '/':
+        result=(double)number1/number2;
+        break;
+    default:
+        result=0;
     }
 
     printf("Result %.2f", result);
