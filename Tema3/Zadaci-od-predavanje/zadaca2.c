@@ -25,4 +25,6 @@ int main()
     {
         printf("The number is not divisible with 38 - %d",number);
     }
+
+    return 0;
 }
