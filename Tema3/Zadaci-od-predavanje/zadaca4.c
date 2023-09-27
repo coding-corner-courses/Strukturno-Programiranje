@@ -29,4 +29,6 @@ int main()
     {
         printf("The number is not divisible with the expected numbers");
     }
+
+    return 0;
 }
