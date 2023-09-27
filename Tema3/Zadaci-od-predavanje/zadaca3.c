@@ -20,4 +20,6 @@ int main()
     {
         printf("The number is 0");
     }
+
+    return 0;
 }
