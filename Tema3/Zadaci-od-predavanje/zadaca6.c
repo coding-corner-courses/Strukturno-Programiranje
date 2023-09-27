@@ -19,4 +19,6 @@ int main()
     if(number>5 && number%5==0){
         printf("Bingo!");
     }
+
+    return 0;
 }
