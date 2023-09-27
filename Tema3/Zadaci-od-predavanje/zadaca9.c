@@ -30,6 +30,7 @@ int main()
         break;
     default:
         result=0;
+        break;
     }
 
     printf("Result %.2f", result);
