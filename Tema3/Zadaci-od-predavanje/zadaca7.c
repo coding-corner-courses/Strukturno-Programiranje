@@ -42,4 +42,6 @@ int main()
     int result = min + max;
 
     printf("The result is %d", result);
+
+    return 0;
 }
